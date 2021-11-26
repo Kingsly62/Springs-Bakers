@@ -44,10 +44,11 @@ button{
     font-weight: bold;
     margin: 20px;
     padding: 5px 10px;
+
 }
 
 button:hover{
-    box-shadow:0 0 5px #e1701a inset ;
+    box-shadow: red;
 }
 
 #Order:hover{
@@ -57,4 +58,21 @@ button:hover{
 #Order{
     font-size: 24px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orange;
+}
+
+.cakes{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    
+}
+
+#About{
+    color: orange;
+}
+
+#About:hover{
+    color:orangered;
 }

@@ -1,3 +1,5 @@
+
+@media (min-width: 768px){
 .navigation-page h2{
  text-shadow: 10px 5px yellow;
  font-size: 25px;
@@ -155,4 +157,11 @@ button:hover{
 
 .contact{
     background-image: url('./Images/Newyorkpizaa.jpg');
+}
+
+.summary{
+    box-shadow: 55px;
+    background-color: whitesmoke;
+    
+}
 }

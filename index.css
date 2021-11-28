@@ -69,10 +69,23 @@ button:hover{
     
 }
 
+
+.about{
+    background-color: wheat;
+}
+
 #About{
     color: orange;
 }
 
 #About:hover{
     color:orangered;
+}
+
+#intro{
+    display: flex;
+}
+
+#intro p:hover{
+    color: orange;
 }

@@ -89,3 +89,70 @@ button:hover{
 #intro p:hover{
     color: orange;
 }
+
+#cont p{
+    align-items: center !important;
+    align-content: center !important;
+    text-align: center !important;
+    color: orange;
+}
+
+#cont{
+        align-items: center !important;
+        align-content: center !important;
+        text-align: center !important;
+        color: orangered;
+}
+
+.fa {
+    padding: 13px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.far:hover{
+    opacity: 0.7;
+}
+
+#Icons-contact .fa{
+    align-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google{
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-instagram{
+    background: #125688;
+    color: white;
+}
+
+.fa-whatsapp{
+    color: white;
+    background: yellowgreen;
+}
+
+.fa-slack{
+    color: white;
+    background: purple;
+}
+
+.contact{
+    background-image: url('./Images/Newyorkpizaa.jpg');
+}

@@ -19,6 +19,20 @@
     font-size: 25px;
     text-align: center;
     color: orange;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#nav{
+    overflow: hidden;
+    background-color: blue;
+}
+
+#nav a:hover{
+    background-color: peru;
+    color: black;
 }
 
 .card{
@@ -160,8 +174,10 @@ button:hover{
 }
 
 .summary{
-    box-shadow: 55px;
+    box-shadow: 80px;
     background-color: whitesmoke;
+    color: orange;
+    float: right;
     
 }
 }

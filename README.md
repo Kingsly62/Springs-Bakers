@@ -8,7 +8,7 @@ Clinton Makori Kioge
 
 ## Project description
 
-Delani Studio is Company situated along Ngong ,its a software company mainly work on<br> designing projects,and deliver it to clients.Mainly deals with web <br>applictaions and android application development
+What we do is nice and simple, it’s freshly baked bread! Since 2016, we’ve been committed to delighting our<br> customers and being pillars of our communities. We’ve been baking the same way for 5 years to give you our<br> signature delightful experience. Because you don’t just deserve butter, you deserve the best
 
 ## Date of Project Setup
 

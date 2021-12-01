@@ -8,7 +8,7 @@ Clinton Makori Kioge
 
 ## Project description
 
-What we do is nice and simple, it’s freshly baked bread! Since 2016, we’ve been committed to delighting our<br> customers and being pillars of our communities. We’ve been baking the same way for 5 years to give you our<br> signature delightful experience. Because you don’t just deserve butter, you deserve the best
+The purpose of Spring-Bakers is to develop a platform whereby buyer can create an order for Pizaa on size <br> toppings , and crust of type pizza you have placed an order on <br>After placing an order the pizza is delivered to your place living by own means.
 
 ## Date of Project Setup
 

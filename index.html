@@ -68,16 +68,11 @@
   
  <span class="cakes">
   <div class="card" id="item1">
+    <span>Large pizza</span>
     <img src="./Images/Newyorkpizaa.jpg">
     <div id="title">New-York style Pizza</div>
-    <div>
-    <label>SIZE: 
-    <select id="size">
-        <option>Medium</option>
-        <option>Small</option>
-        <option>Large</option>
-    </select>
-  </label>
+    <div> 
+
   <label>TOPPINGS:
     <select id="toppings">
       <option>Onions</option>
@@ -85,30 +80,24 @@
       <option>Susauges</option>
     </select>
   </label>
+
   <label>CRUST:
     <select id="crust">
       <option>Clefts@500</option>
-      <option>Onions@500</option>
-      <option>Onions@500</option>
+      <option>Crispy@500</option>
+      <option>CrispyOriginal@500</option>
     </select>
-  
-  </label>
+   </label>
+
   </div>
-    <span>$5</span>
-    <button onclick="addToCart(item1)" id="addBtn">Add to Cart</button>
+    <input type="submit" value="Order">
 </div>
-<div class="col-md-12 col-lg-4">
-  <div class="summary">
-      <h3 id="header-summary">Total Budget</h3>
-      <div class="cart"><h1><i class="fa fa-shopping-cart" style="color: red;font-size: 30px;"></i></h1></div>
-      <div class="summary-item"><span class="text">Subtotal</span><span class="price">Ksh.500</span></div>
-      <div class="summary-item"><span class="text">Discount</span><span class="price">Ksh.0</span></div>
-      <div class="summary-item"><span class="text">Shipping</span><span class="price">Ksh.0</span></div>
-      <div class="summary-item"><span class="text">KRA:Taxation</span><span class="price">Ksh.15</span></div>
-      <div class="summary-item"><span class="text">Total</span><span class="price">Ksh.500</span></div>
-      <button type="button" class="btn btn-warning" id="submit">Checkout</button>
+<div class="location">
+  <input type="text"id="name" cols="5" row="5" name="Name" placeholder="Name.."  class="form-control" id="name" required>
+  <input type="text"id="name" name="Email" placeholder="Email.."  class="form-control" id="email" required>
+  <input type="text"id="name" name="Location" placeholder="Location.."  class="form-control" id="Location" required>
+  <input type="submit" value="Submit">
   </div>
-</div>
 </div>
 
 </span>

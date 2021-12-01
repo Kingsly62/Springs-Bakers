@@ -14,7 +14,7 @@ function shoppingCart(crust,toppings,size) {
     if(myCart.crust=="Crispy"){
         if(myCart.size=="large"){
           myCart.crustCost=1000;
-          alert('make your payment')
+          alert('make your payment');
         }
         else if(myCart.size=="medium"){
             myCart.crustCost=700;

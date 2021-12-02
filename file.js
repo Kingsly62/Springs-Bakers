@@ -1,27 +1,36 @@
-function shoppingCart(crust,toppings,size) {
-    this.size = size;
-    this.toppings=toppings;
-    this.crust= crust;
-    this.crustCost=0;
-    this.toppingsCost=0;
-    this.sizeCost=0;
-    }
-    
-     itemSize = document.getElementById('#size').value();
+function shoppingCart(myCrust,myToppings,mySize,myQuantity) {
+    this.mySize = mySize;
+    this.myToppings=myToppings;
+    this.myCrust= myCrust;
+    this.myQuantity = myQuantity;
 
-    let myCart = new shoppingCart("Crispy","Onions", itemSize);
-    
-    if(myCart.crust=="Crispy"){
-        if(myCart.size=="large"){
-          myCart.crustCost=1000;
-          alert('make your payment');
-        }
-        else if(myCart.size=="medium"){
-            myCart.crustCost=700;
-            alert("make your payment")
-        }
-    }else if(myCart.size=="small"){
-        myCart.crustCost=500;
-        alert("Make your payment")
-    }
 
+    let myCart = new shoppingCart(myCrust(),myToppings(),mySize(),myQuantity())
+
+     function myCrust(){
+         document.getElementById('crusts').value;
+         return parseInt(size)
+     }
+     
+     function myToppings(){
+         document.getElementById('toppings').value;
+         return parseInt(topping)
+     }
+
+     function mySize(){
+         document.getElementById('sizes').value;
+         return parseInt(size)
+     }
+
+     function myQuantity(){
+         document.getElementById('quantity').value;
+         return parseInt(number)
+     }
+     
+
+     function totalShopping(e) {
+      e.preventDefault();
+        let totals = (mySize() + myCrust() + myToppings()) * myQuantity();
+        alert("You ordered : " + myQuantity() + " pizza, amounting to " + totals);
+      }
+    };

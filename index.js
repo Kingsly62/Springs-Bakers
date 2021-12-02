@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('button').click(function(e){
+    $('#contact').click(function(e){
         e.preventDefault();
         var name = 
         $('#name').val();

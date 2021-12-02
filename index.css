@@ -183,6 +183,13 @@ button:hover{
 
 .location{
     float: right;
+    padding: 40px;
+    box-shadow: 3px solid whitesmoke;
+    background-color: wheat;
+}
+
+body{
+   
 }
 }
 

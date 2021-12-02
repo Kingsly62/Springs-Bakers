@@ -68,36 +68,54 @@
   
  <span class="cakes">
   <div class="card" id="item1">
-    <span>Large pizza</span>
     <img src="./Images/Newyorkpizaa.jpg">
     <div id="title">New-York style Pizza</div>
     <div> 
+      <div id="size">
+      <label>SIZE:
+        <select id="sizes">
+          <option label="Choose"></option>
+          <option value="600" label="Small-@500"></option>
+          <option value="700" label="Medium-@700"></option>
+          <option value="1000" label="Large-@1000"></option>
+        </select>
+      </label>
+    </div>
 
+    <div id="topping">
   <label>TOPPINGS:
     <select id="toppings">
-      <option>Onions</option>
-      <option>Peppers</option>
-      <option>Susauges</option>
+      <option  label="Choose"></option>
+      <option label="Onions-@70" value="70"></option>
+      <option label="Peppers-@100" value="100"></option>
+      <option label="Susauges-@80" value="80"></option>
     </select>
   </label>
+  </div>
 
+  <div id="crust">
   <label>CRUST:
-    <select id="crust">
-      <option>Clefts@500</option>
-      <option>Crispy@500</option>
-      <option>CrispyOriginal@500</option>
+    <select id="crusts">
+      <option label="Choose"></option>
+      <option label="Cleft-@200" value="200"></option>
+      <option label="Stuffed-150" value="150"></option>
+      <option label="Glutten-200" value="200"></option>
     </select>
    </label>
+   </div>
+   </div>
+
+  <div id="number">
+    <label for="quantity">Quantity</label>
+    <input class="form-control" type="number" name="pizza" id="quantity" placeholder="0"
+    max="" min="0">
+
+    <button class="btn btn-warning mx-auto d-block submit" type="submit" id="submit2" onclick="totalShopping(e);"><strong>Order Now</strong><imgsrc="" class="img-fluid">m</button>
 
   </div>
-    <input type="submit" value="Order">
+    
 </div>
-<div class="location">
-  <input type="text"id="name" cols="5" row="5" name="Name" placeholder="Name.."  class="form-control" id="name" required>
-  <input type="text"id="name" name="Email" placeholder="Email.."  class="form-control" id="email" required>
-  <input type="text"id="name" name="Location" placeholder="Location.."  class="form-control" id="Location" required>
-  <input type="submit" value="Submit">
-  </div>
+
 </div>
 
 </span>
@@ -146,7 +164,7 @@
       
     <a href="#" class="fa fa-facebook"> fb</a>
     <a href="#" class="fa fa-twitter"> Tw</a>
-    <a href="#" class="fa fa-whatsapp"> Wp</a>
+    <a href="#" class="fa fa-whatsapp"> Wsp</a>
     <a href="#" class="fa fa-instagram"> IG</a>
     <a href="#" class="fa fa-slack"> Sl</a>
     <a href="#" class="fa fa-google"> Gg</a>

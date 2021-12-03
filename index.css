@@ -170,7 +170,7 @@ button:hover{
 }
 
 .contact{
-    background-image: url('./Images/Newyorkpizaa.jpg');
+    background-image: url('./Images/decor1.jpg');
 }
 
 .summary{
@@ -193,5 +193,8 @@ input[type=text],textarea {
     color: green;
 }
 
+#Contact{
+    color: orangered !important;
+}
 }
 

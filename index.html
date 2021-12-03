@@ -63,59 +63,92 @@
   </div>
 </div>
 
-<div class="order">
+
   <h3 id="Order">Make Order</h3>
-  
- <span class="cakes">
-  <div class="card" id="item1">
-    <img src="./Images/Newyorkpizaa.jpg">
-    <div id="title">New-York style Pizza</div>
-    <div> 
-      <div id="size">
-      <label>SIZE:
-        <select id="sizes">
-          <option label="Choose"></option>
-          <option value="600" label="Small-@500"></option>
-          <option value="700" label="Medium-@700"></option>
-          <option value="1000" label="Large-@1000"></option>
-        </select>
-      </label>
-    </div>
+ 
+</div> -->
+<div id="order">
+<div class="cont">
+<div class="placeOrder">
+  <form>
+    <div class="card">
+      <div class="card-body">
+        
+        <div class="form-group">
+          <div id="size">
+            <div class="key">
+              <img src="./Images/silicianpizaa.jpg">
+              <h4>New York </h4>
+            </div>
 
-    <div id="topping">
-  <label>TOPPINGS:
-    <select id="toppings">
-      <option  label="Choose"></option>
-      <option label="Onions-@70" value="70"></option>
-      <option label="Peppers-@100" value="100"></option>
-      <option label="Susauges-@80" value="80"></option>
-    </select>
-  </label>
-  </div>
+            <label for="pizzaSize">Size</label>
+            <select class="browser-default custom-select" id="Size">
+              <option value="Choose"></option>
+              <option label="Large - ksh 2000" value="2000"></option>
+              <option label="Medium -ksh 1500" value="1500"></option>
+              <option label="Small -ksh 1000" value="1000"></option>
+            </select>
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <div id="crust">
+            <label for="pizzaCrust">Crust</label>
+            <select class="browser-default custom-select" id="Crust">
+              <option label="Choose"></option>
 
-  <div id="crust">
-  <label>CRUST:
-    <select id="crusts">
-      <option label="Choose"></option>
-      <option label="Cleft-@200" value="200"></option>
-      <option label="Stuffed-150" value="150"></option>
-      <option label="Glutten-200" value="200"></option>
-    </select>
-   </label>
-   </div>
-   </div>
+              <option label="Clefty crust -ksh 500" value="500"></option>
+              <option label="Crispy crust -ksh 600" value="450"></option>
+              <option label="Stuffed crust -ksh 400" value="400"></option>
+            </select>
+          </div>
+        </div>
+      
+        <div class=" form-group">
+          <div id="toppings">
+            <label for="pizzaTopping">Choose flavor</label>
+            <select class="browser-default custom-select" id="pizzaTopping">
+              <option label="Choose"></option>
+            <option label="Pepperoni Pizza"></option>
+              <option label="Sausage Pizza"></option>
+              <option label="Chicken Pizza"></option>
+              <option label="Peppers"></option>
+             
+            </select>
+          </div>
+        </div>
 
-  <div id="number">
-    <label for="quantity">Quantity</label>
-    <input class="form-control" type="number" name="pizza" id="quantity" placeholder="0"
-    max="" min="0">
+        <div class="form-group">
+          <div id="toppings">
+            <label for="pizzaTopping">Toppings</label>
+            <select class="browser-default custom-select" id="Cheese">
+              <option label="Choose"></option>
+              <option label="Ricotta -ksh.100" value="100"></option>
+              <option label="Parmesam -ksh.150" value="150"></option>
+              <option label="Provolone -ksh.80" value="80"></option>
+            </select>
+          </div>
+        </div>
 
-    <button class="btn btn-warning mx-auto d-block submit" type="submit" id="submit2" onclick="totalShopping(e);"><strong>Order Now</strong><imgsrc="" class="img-fluid"></button>
-
-  </div>
+        <div class="form-group">
+          <div id="number">
+            <label for="quantity">Quantity</label>
+            <input class="form-control" type="number" name="pizza" id="quantity" placeholder="0"
+            max="" min="0">
+          </div>
+        </div>
+      </div>
+      <br>
     
-</div>
+      <button class="btn btn-warning mx-auto d-block submit" type="submit" id="submit2" onclick="shoppingCart();"><strong> Order Now</strong><imgsrc="" class="img-fluid"></button>
 
+
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
 </div>
 
 </span>
@@ -130,36 +163,35 @@
 </div>
 
 <div class="contact">
-  <div id="contacts" class="container-fluid bg-secondary">
-    <div class="pt-5">
+
+
+    
     <h3 class="text-white text-center" id="Contact">CONTACT US</h3>
+
     <p id=cont>Write your comment below or feedback ,we shall respond to you instantly</p>
+
+    <div class="container">
+
+      <h4 id="header4" class="text-center"><a href="contact">Contact Us</a></h4>
+    <form action="https://gmail.us20.list-manage.com/subscribe/post?u=fc57d1e00241c0ce659e935a8&amp;id=76fecc8708" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate method="" id="myForm">
+
+   
+     <input type="text" id="name" name="NAME" placeholder="Name">
+ 
+     
+     <input type="text" id="email" name="EMAIL" placeholder="Email">
+ 
+
+     <textarea id="comment" name="MESSAGE" placeholder="write what you wanna say." style="height:200px"></textarea>
+ 
+     <input class="button" class="text-center" type="submit" value="Submit">
+ 
+   </form>
+</div>
     </div>
-    <div class="container pb-4 test">
+   
        
-            <form action="" method=""  name="mc-embedded-subscribe-form"  id="contact-form" class="pb-3">
-               <div class="row">
-                <div class="col-md-5">
-                  <label for="name">Name</label>
-                    <input type="text"id="name" name="NAME" placeholder="Name" 
-                    class="form-control" id="name" required>
-                </div>
-                <div class="col-md-5">
-                  <label for="email">Email</label>
-                   <input type="text" id="email" name="EMAIL" placeholder="Email" 
-                   class="form-control" id="email" required>
-               </div>
-           </div><br>
-           <div class="row">
-               <div class="col-md-12">
-                 <label for="message">Message</label>
-               <textarea id="message" cols="15" rows="5"
-               placeholder="hint your comment here ...." class="form-control" name="MESSAGE" id="message" required></textarea>
-               </div>
-           </div>
-        </form><br>
-        <button type="submit"  class="btn btn-outline-warning" value="submit">Submit</button>
-  </div>
+          
     <div class="Icons-contact">
       
     <a href="#" class="fa fa-facebook"> fb</a>

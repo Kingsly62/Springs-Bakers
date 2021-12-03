@@ -1,36 +1,37 @@
-function shoppingCart(myCrust,myToppings,mySize,myQuantity) {
+
+
+function myPizza(mySize, myCrust, myCheese, myQuantity) {
     this.mySize = mySize;
-    this.myToppings=myToppings;
-    this.myCrust= myCrust;
+    this.myCrust = myCrust;
+    this.myCheese = myCheese;
     this.myQuantity = myQuantity;
+  }
+  
+   //let cart = new myPizza(mySize(), myCrust(), myCheese(), getQuantity());
+  
+  function mySize() {
+    var size = document.getElementById("Size").value;
+    return parseInt(size);
+  }
+  
+  function myCrust() {
+    var crust = document.getElementById("Crust").value;
+    return parseInt(crust);
+  }
+  
+  function myCheese() {
+    var cheese = document.getElementById("Cheese").value;
+    return parseInt(cheese);
 
-
-    let myCart = new shoppingCart(myCrust(),myToppings(),mySize(),myQuantity())
-
-     function myCrust(){
-         document.getElementById('crusts').value;
-         return parseInt(size)
-     }
-     
-     function myToppings(){
-         document.getElementById('toppings').value;
-         return parseInt(topping)
-     }
-
-     function mySize(){
-         document.getElementById('sizes').value;
-         return parseInt(size)
-     }
-
-     function myQuantity(){
-         document.getElementById('quantity').value;
-         return parseInt(number)
-     }
-     
-
-     function totalShopping(e) {
-      e.preventDefault();
-        let totals = (mySize() + myCrust() + myToppings()) * myQuantity();
-        alert("You ordered : " + myQuantity() + " pizza, amounting to " + totals);
-      }
-    };
+  }
+  
+  function myQuantity() {
+    var number = document.getElementById("quantity").value;
+    return parseInt(number);
+  }
+  
+  function shoppingCart() {
+    var totals = (mySize() + myCrust() + myCheese()) * myQuantity();
+    alert("You have successfully ordered : " + myQuantity() + " pizzas, adding up " + totals+"."  +  "Kindly contact the number to be delivered your pizza to"  +  "Contact:076761290");
+  }
+  

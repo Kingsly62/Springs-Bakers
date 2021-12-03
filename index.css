@@ -181,15 +181,17 @@ button:hover{
     
 }
 
-.location{
-    float: right;
-    padding: 40px;
-    box-shadow: 3px solid whitesmoke;
-    background-color: wheat;
+input[type=text],textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1p solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    resize: vertical;
+    color: green;
 }
 
-body{
-   
-}
 }
 

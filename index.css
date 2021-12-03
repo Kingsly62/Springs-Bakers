@@ -121,8 +121,8 @@ button:hover{
 }
 
 .fa {
-    padding: 13px;
-    font-size: 20px;
+    padding: 15px;
+    font-size: 10px;
     width: 50px;
     text-align: center;
     text-decoration: none;
@@ -196,5 +196,17 @@ input[type=text],textarea {
 #Contact{
     color: orangered !important;
 }
+
+.Icons-contact{
+    background-color: green;
 }
+
+#header3{
+    color: honeydew;
+    font-size: large;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+}
+
 
